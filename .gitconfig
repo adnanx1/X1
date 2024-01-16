@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = C:/Users/X1/front end development
+[user]
+	email = 95428694+adnanx1@users.noreply.github.com
+	name = adnanx1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
